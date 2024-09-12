@@ -1,10 +1,17 @@
-﻿namespace WeCamp_DataStructureAndAlgorithm
+﻿using WeCamp_DataStructureAndAlgorithm.Problems;
+
+namespace WeCamp_DataStructureAndAlgorithm
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
+			/*
+			string s = "abcd", t = "abcde";
+			Console.WriteLine($"Find the different: {FindTheDifference.Solution(s, t)}");
+			*/
+			string s = "ABFCACDB";
+			Console.WriteLine($" Minimum String Length After Removing Substrings: {MinimumStringLengthAfterRemovingSubstrings.Solution(s)}");
 		}
 	}
 }

@@ -7,10 +7,19 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			int[] nums = { 2, 7, 11, 15 };
+			int target = 9;
+			Console.Write($"Indices of the two numbers such that they add up to {target} is ");
+			foreach( int i in TwoSum.Solution(nums, target) )
+			{
+				Console.Write( i  + ", ");
+			}
+
+			/*
 			string s = "leEeetcode";
 			Console.WriteLine($"The great string of {s} is {MakeTheStringGreat.MakeGood(s)}");
 			
-			/*
+			
 			string s = "loveleetcode";
 			Console.WriteLine($"The index of the first unique character is {FirstUniqueCharacterInAString.FirstUniqChar(s)}");
 			

@@ -7,6 +7,10 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			int[] nums = { 3, 2, 3 };
+			Console.WriteLine($"The majority element is {MajorityElement.Solution(nums)}");
+
+			/*
 			int[] nums = { 2, 7, 11, 15 };
 			int target = 9;
 			Console.Write($"Indices of the two numbers such that they add up to {target} is ");
@@ -15,7 +19,7 @@ namespace WeCamp_DataStructureAndAlgorithm
 				Console.Write( i  + ", ");
 			}
 
-			/*
+			
 			string s = "leEeetcode";
 			Console.WriteLine($"The great string of {s} is {MakeTheStringGreat.MakeGood(s)}");
 			

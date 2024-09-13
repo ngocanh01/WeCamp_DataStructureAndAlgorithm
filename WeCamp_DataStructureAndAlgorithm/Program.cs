@@ -7,9 +7,13 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			string s = "leEeetcode";
+			Console.WriteLine($"The great string of {s} is {MakeTheStringGreat.MakeGood(s)}");
+			
+			/*
 			string s = "loveleetcode";
 			Console.WriteLine($"The index of the first unique character is {FirstUniqueCharacterInAString.FirstUniqChar(s)}");
-			/*
+			
 			string s = "abcd", t = "abcde";
 			Console.WriteLine($"Find the different: {FindTheDifference.Solution(s, t)}");
 			

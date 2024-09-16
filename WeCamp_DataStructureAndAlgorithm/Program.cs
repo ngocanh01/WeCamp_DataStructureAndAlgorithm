@@ -7,10 +7,17 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			int[] nums = {1,2,2,1};
+			Console.Write($"The next greater Element is ");
+			foreach (int i in NextGreaterElementsII.Solution(nums))
+			{
+				Console.Write(i + ", ");
+			}
+			/*
 			int[] nums = { 3, 2, 3 };
 			Console.WriteLine($"The majority element is {MajorityElement.Solution(nums)}");
 
-			/*
+			
 			int[] nums = { 2, 7, 11, 15 };
 			int target = 9;
 			Console.Write($"Indices of the two numbers such that they add up to {target} is ");

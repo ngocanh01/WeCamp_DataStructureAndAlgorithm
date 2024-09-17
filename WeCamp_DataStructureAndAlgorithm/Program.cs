@@ -7,6 +7,9 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			string s = "()[]{}";
+			Console.WriteLine($"{s} is a valid parentese: {ValidParentheses.IsValid(s)}");
+			/*
 			string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 			Console.WriteLine($"Group anagram: ");
 			foreach (var str in GroupAnagrams.Solution(strs))

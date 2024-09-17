@@ -7,6 +7,17 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+			Console.WriteLine($"Group anagram: ");
+			foreach (var str in GroupAnagrams.Solution(strs))
+			{
+				foreach(var i in str)
+				{
+					Console.Write(i + ", ");
+				}				
+				Console.WriteLine();
+			}
+			/*
 			int[] tickets = [2, 3, 2];
 			int k = 2;
 			Console.WriteLine($" Time Needed to Buy Tickets is {TimeNeededToBuyTickets.TimeRequiredToBuy(tickets, k)}");

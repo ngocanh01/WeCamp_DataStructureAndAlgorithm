@@ -7,9 +7,69 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			int[] tickets = [2, 3, 2];
+			int k = 2;
+			Console.WriteLine($" Time Needed to Buy Tickets is {TimeNeededToBuyTickets.TimeRequiredToBuy(tickets, k)}");
+			/*
+			// >>>>>>
+			// <<<<<<
+			// ><><>
+			// v<^>
+			// >^<v
+			// <v<<>
+			// >><<v<
+			string input = ">>>>>>";
+			Console.Write($"Result 1 is ");
+			foreach (bool i in CheckValid.Solution(input))
+			{
+				Console.Write(i + ", ");
+			}
+			Console.WriteLine();
+			string input2 = "<<<<<<";			
+			Console.Write($"Result 2 is ");
+			foreach (bool i in CheckValid.Solution(input2))
+			{
+				Console.Write(i + ", ");
+			}
+			Console.WriteLine();
+			string input3 = "><><>";
+			Console.Write($"Result 3 is ");
+			foreach (bool i in CheckValid.Solution(input3))
+			{
+				Console.Write(i + ", ");
+			}
+			Console.WriteLine();
+			string input4 = "v<^>";
+			Console.Write($"Result 4 is ");
+			foreach (bool i in CheckValid.Solution(input4))
+			{
+				Console.Write(i + ", ");
+			}
+			Console.WriteLine();
+			string input5 = ">^<v";
+			Console.Write($"Result 5 is ");
+			foreach (bool i in CheckValid.Solution(input5))
+			{
+				Console.Write(i + ", ");
+			}
+			Console.WriteLine();
+			string input6 = "<v<<>";
+			Console.Write($"Result 6 is ");
+			foreach (bool i in CheckValid.Solution(input6))
+			{
+				Console.Write(i + ", ");
+			}
+			Console.WriteLine();
+			string input7 = ">><<v<";
+			Console.Write($"Result 7 is ");
+			foreach (bool i in CheckValid.Solution(input7))
+			{
+				Console.Write(i + ", ");
+			}
+			/*
 			string s = "A man, a plan, a canal: Panama";
 			Console.WriteLine($"String {s} is a valid palindrome {ValidPalindrome.IsPalindrome(s)}");
-			/*
+			
 			int[] nums = {1,2,2,1};
 			Console.Write($"The next greater Element is ");
 			foreach (int i in NextGreaterElementsII.Solution(nums))

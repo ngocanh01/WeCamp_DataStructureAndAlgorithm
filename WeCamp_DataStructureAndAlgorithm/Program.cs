@@ -7,13 +7,16 @@ namespace WeCamp_DataStructureAndAlgorithm
 	{
 		static void Main(string[] args)
 		{
+			string s = "A man, a plan, a canal: Panama";
+			Console.WriteLine($"String {s} is a valid palindrome {ValidPalindrome.IsPalindrome(s)}");
+			/*
 			int[] nums = {1,2,2,1};
 			Console.Write($"The next greater Element is ");
 			foreach (int i in NextGreaterElementsII.Solution(nums))
 			{
 				Console.Write(i + ", ");
 			}
-			/*
+			
 			int[] nums = { 3, 2, 3 };
 			Console.WriteLine($"The majority element is {MajorityElement.Solution(nums)}");
 
